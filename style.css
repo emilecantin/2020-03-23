@@ -1,0 +1,60 @@
+h1 {
+    padding: 5px;
+    border: 1px solid #00cafe;
+}
+
+section {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.date, .author {
+    border: 1px solid #333;
+    background: #eee;
+}
+
+div.date.tag {
+    color: #666;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.tag {
+    padding: 5px;
+    font-size: small;
+}
+
+img {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.clear {
+    clear: both;
+}
+
+nav {
+    background: #00cafe;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav div {
+    margin: 0px 10px;
+}
+
+nav div.spacer {
+    margin-left: auto
+}
+
+body {
+    margin-top: 80px;
+}
